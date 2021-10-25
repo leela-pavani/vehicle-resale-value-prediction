@@ -17,7 +17,7 @@ The data used in this project was downloaded from Kaggle. The DataSet contains o
 * Removed Outliers and bad data from the columns - 'yearOfRegistration','powerPS','price' 
 <p float="left">
   <img src="/images/yearVprice_w_outliers.PNG" width="40%" height="300" />
-  <img src="/images/yearVprice_wo_outliers.PNG" width="450" height="300" /> 
+  <img src="/images/yearVprice_wo_outliers.PNG" width="40%" height="300" /> 
 </p>
 
 <p float="left">
@@ -43,9 +43,9 @@ The shape of cleaned data turned out to be 318081 samples with 12 features(5-num
 Post testing various Regression algorithms (linear Regression, SVR, XGboost), found Random Forest Regressor is best suited for the dataset. 
 
 # Results
-##### r2-score: 90.09062451445848
-##### RMSE: 2152.478332372957
- ##### MAE: 1147.5807432474696
+* ##### r2-score: 90.09062451445848
+* ##### RMSE: 2152.478332372957
+* ##### MAE: 1147.5807432474696
 
 # Limitations
 * There could be more features added that can be good predictors.
